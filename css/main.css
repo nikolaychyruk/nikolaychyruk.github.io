@@ -1,0 +1,198 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+}
+.header-photo img{
+    width: 50%;
+}
+.header-photo{
+    width: 100%;
+    text-align: center;
+}
+.header-name{
+    width: 100%;
+    text-align: left;
+}
+.nik{
+    font-size: 25px;
+    /* color: goldenrod; */
+    color: rgb(126, 18, 18);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.qa{
+    font-size: 20px;
+    color: grey;
+    font-family: monospace;
+}
+.header-icon{
+    width: 100%;
+    text-align: center;
+}
+.header-icon img{
+    width: 4%;
+    border: solid 1px black;
+}
+.header-icon a{
+    font-size: 1.4rem;
+    color: #0f0e0d;
+    margin: 4px;
+    text-decoration: none;
+    font-family: monospace;
+}
+.header-icon a:hover{
+    opacity: 0.6;
+    color: darkblue;
+}
+@media (max-width: 700px){
+    .header-icon a{
+        font-size: 0.5rem;
+    }
+}
+.language{
+
+}
+
+.language-ru a img{
+    border: solid 1px black;
+    /* width: 35px;
+    height: 20px; */
+}
+.language-en a img{
+    border: solid 1px black;
+    margin-left: 15px;
+    /* width: 35px; 
+    height: 20px; */
+}
+
+
+/* skill */
+
+.skill{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.skill-block{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 100%;
+}
+.skill-text{
+    width: 20%;
+}
+.skill-text .skill-p{
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+.skill-skill{
+    width: 80%;
+    margin-top: 9px;
+}
+.skill-skill p{
+    color: grey;
+    font-family: monospace;
+    font-size: 15px;
+}
+.skill-skill ul li{
+    color: grey;
+    font-family: monospace;
+    font-size: 15px;
+}
+.skill-skill ul li a{
+    color: grey;
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: none;
+}
+.skill-skill ul li a:hover{
+    opacity: 0.7;
+}
+.skill-skill p a{
+    color: grey;
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: none;
+}
+.skill-skill p a:hover{
+    opacity: 0.7;
+}
+@media (max-width: 700px){
+    .skill{
+        margin-top: 0px;
+    }
+    .header-photo img{
+        width: 65%;
+    }
+    .skill-skill h3{
+        margin-left: 5px;
+    }
+
+    .skill-text{
+        width: 30%;
+    }
+    .skill-skill{
+        width: 70%;
+        margin-top: 4px;
+        margin-left: 5px;
+    }
+
+    .skill-text .skill-p{
+        color: black;
+        font-family: monospace;
+        font-size: 16px;
+    }
+
+    .skill-skill p{
+        color: grey;
+        font-family: monospace;
+        font-size: 14px;
+    }
+    .skill-skill ul li{
+        color: grey;
+        font-family: monospace;
+        font-size: 14px;
+    }
+    .skill-skill ul li a{
+        color: grey;
+        font-family: monospace;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .skill-skill p a{
+        color: grey;
+        font-family: monospace;
+        font-size: 14px;
+        text-decoration: none;
+    }
+}
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-name{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1170px;
+    width: 100%;
+    border-top:  1px inset ;
+    border-top-color: gray;
+}
+.footer-name p{
+    color: grey;
+    font-family: monospace;
+    font-size: 15px;
+}
