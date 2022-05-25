@@ -1,3 +1,7 @@
+body{
+    opacity: 0;
+    transition: 1.5s;
+}
 .header{
     display: flex;
     justify-content: center;
