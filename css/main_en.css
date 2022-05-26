@@ -1,6 +1,6 @@
 body{
     opacity: 0;
-    transition: 1.5s;
+    transition: 2s;
 }
 .header{
     display: flex;
