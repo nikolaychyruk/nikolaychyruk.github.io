@@ -139,7 +139,7 @@ body{
 
 /* mobile version */
 
-@media (max-width: 2000px){
+@media (max-width: 4000px){
     .mobile_version{
         display: none;
 }
