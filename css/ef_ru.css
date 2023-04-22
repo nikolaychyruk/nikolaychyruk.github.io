@@ -1,0 +1,113 @@
+.language{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.languageen, .languageru, .languageby{
+    margin: 7px;
+}
+.language-ru a{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.language-en a{
+    font-size: 18px;
+    color: black;
+}
+.language-by a{
+    font-size: 18px;
+    color: black;
+}
+
+/* name */
+
+div.name{
+    /* padding-left: 130px; */
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* information */
+
+.information{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.information a{
+    color: black;
+    font-weight: bold;
+    margin: 3px;
+    text-decoration: none;
+}
+.information a:hover{
+    opacity: 0.7;
+}
+
+/* skill */
+
+.skill_name{
+    font-weight: bold;
+}
+
+/* work */
+
+.work_name{
+    font-weight: bold;
+}
+
+/* education */
+
+.education_name{
+    font-weight: bold;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-name{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border-top:  1px inset ;
+    border-top-color: gray;
+}
+.footer-name p{
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+@media (max-width: 700px)  {
+    .information{
+        display: contents;
+        justify-content: center;
+        width: 100%;
+    }
+    .languageen, .languageru, .languageby{
+        margin: 5px;
+    }
+    .language-ru a{
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    }
+    .language-en a{
+        font-size: 15px;
+        color: black;
+    }
+    .language-by a{
+        font-size: 15px;
+        color: black;
+    }
+    .skill_name{
+        margin-top: 7px;
+    }
+}
