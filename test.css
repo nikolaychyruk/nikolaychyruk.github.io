@@ -23,7 +23,7 @@ font-weight: bold;
 /* name */
 
 div.name{
-    /* padding-left: 130px; */
+    padding-left: 130px; 
     width: 100%;
     text-align: center;
     font-size: 25px;
